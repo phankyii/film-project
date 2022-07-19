@@ -12,7 +12,7 @@
       </div>
       <div class="header-right">
         <ul class="pd15">
-          <li><a href="">Home</a></li>
+          <li><a href="">Home Baron</a></li>
           <li class="same">
             <a href="">Pages</a>
             <ul class="sub-same">
