@@ -353,7 +353,6 @@
 </template>
 
 <script>
-<<<<<<< HEAD
 import Header from '@/components/Header.vue'
 
 export default {
@@ -361,21 +360,6 @@ export default {
   
   components: {
     Header
-=======
-// import Tutorial from '@/components/Tutorial.vue'
-import Header from "@/components/Header.vue";
-import Barner from '@/components/Barner.vue';
-import Contents from '@/components/Contents.vue';
-import Footer from "@/components/Footer.vue";
-export default {
-  name: "IndexPage",
-  
-  components:  {
-    Header,
-    Barner,
-    Contents,
-    Footer
->>>>>>> main
   }
 };
 </script>
