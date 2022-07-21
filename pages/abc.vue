@@ -1,5 +1,8 @@
 <template>
-  <Header name="Baron"></Header>
+  <div>
+    <Header name="Baron"></Header>
+    <p>trang abc</p>
+  </div>
 </template>
 
 <script>
