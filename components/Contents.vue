@@ -1,21 +1,5 @@
 <template>
-  <div>
-    <!-- Header -->
-    <Header></Header>
-    <!-- END Header -->
-
-
-    <div class="barner">
-      <div class="barner-img">
-        <img src="@/assets/image/barner.jpeg" alt="" />
-      </div>
-      <!-- <div class="text-barner">
-        <p>Action</p>
-        <h1>Dareing Joker : Card</h1>
-        <p>Release On: 20DEc,2014</p>
-        <button>Watch Trailer</button>
-      </div>  -->
-    </div>
+    
     <div class="content pd70">
       <div class="headding-events row">
         <div class="headding-left pd15">
@@ -349,33 +333,10 @@
         </div>
       </div>
     </div>
-  </div>
 </template>
 
 <script>
-<<<<<<< HEAD
-import Header from '@/components/Header.vue'
-
 export default {
-  name: "HomePage",
-  
-  components: {
-    Header
-=======
-// import Tutorial from '@/components/Tutorial.vue'
-import Header from "@/components/Header.vue";
-import Barner from '@/components/Barner.vue';
-import Contents from '@/components/Contents.vue';
-import Footer from "@/components/Footer.vue";
-export default {
-  name: "IndexPage",
-  
-  components:  {
-    Header,
-    Barner,
-    Contents,
-    Footer
->>>>>>> main
-  }
-};
+    name: "Contents"
+}
 </script>
