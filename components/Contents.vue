@@ -4,7 +4,7 @@
       <div class="headding-events row">
         <div class="headding-left pd15">
           <i class="fa fa-signal" aria-hidden="true"></i>
-          <h1>top movies:</h1>
+          <h1>top movies: ssssssss</h1> 
           <h2 class="color">2019</h2>
         </div>
         <div class="headding-right pd15">
@@ -337,6 +337,24 @@
 
 <script>
 export default {
-    name: "Contents"
+    name: "Contents",
+
+  //   data(){
+  //     return {
+  //     filmImage:[
+  //      { text:"",
+  //       url:"@/assets/image/slider1.jpeg", },
+  //       { text:"",
+  //       url:"@/assets/image/slider2.jpeg", },
+  //        { text:"",
+  //       url:"@/assets/image/slider3.jpeg", },
+  //        { text:"",
+  //       url:"@/assets/image/slider4.jpeg", },
+  //         { text:"",
+  //       url:"@/assets/image/slider5.jpeg", },
+
+  //     ]
+  //  }
+  //   }
 }
 </script>
