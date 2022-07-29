@@ -1,35 +1,24 @@
 <template>
   <div>
-     <!-- headers -->
-           <Header></Header>
-    <!-- end headers -->
-       
-    <!-- barners -->
-          <Barner></Barner>
-     <!-- end barner -->
-     <!-- content -->
-          <Contents></Contents>
-    <!-- end content -->
-          <!-- footers -->
-       <Footer></Footer>
-          <!-- end footer -->
+    <Slider></Slider>
+    <Barner></Barner>
+
+    <Contents></Contents>
   </div>
 </template>
 
 <script>
 // import Tutorial from '@/components/Tutorial.vue'
-import Header from "@/components/Header.vue";
-import Barner from '@/components/Barner.vue';
-import Contents from '@/components/Contents.vue';
-import Footer from "@/components/Footer.vue";
+import Barner from "@/components/Barner.vue";
+import Slider from "@/components/Slider.vue";
+import Contents from "@/components/Contents.vue";
 export default {
   name: "IndexPage",
-  
-  components:  {
-    Header,
+  layout: "default",
+  components: {
     Barner,
+    Slider,
     Contents,
-    Footer
-  }
+  },
 };
 </script>

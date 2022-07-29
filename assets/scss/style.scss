@@ -265,19 +265,21 @@
                     color: #eaeaea;
                     animation: icon 1s infinite;
                     animation-timing-function: ease;
-                    position: relative;
+                    // position: relative;
 
                     @keyframes icon {
                         from {
-                            top: -30px;
+                            // top: -30px;
                             color: #ec7532;
                             opacity: 0;
+                            transform: translateY(-30px);
                         }
 
                         to {
-                            top: -10px;
+                            // top: -10px;
                             color: #eaeaea;
                             opacity: 1;
+                            transform: translateY(-10px);
                         }
                     }
 
