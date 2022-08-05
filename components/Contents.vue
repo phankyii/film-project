@@ -304,7 +304,7 @@
           </div>
         </div>
         <div class="only-new1">
-          <img src="@/assets/image/new2.jpeg" alt="" />
+          <img src="@/assets/image/new2.jpeg" alt="" >
           <div class="text-new1">
             <h5>Doctor Strange Assembles With The Avengers</h5>
             <div class="icon-new">
